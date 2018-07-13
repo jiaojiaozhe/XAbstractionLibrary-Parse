@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XAbstractionLibrary-Parse_Example' do
+  pod 'XAbstractionLibrary-Parse', :path => '../'
+
+  target 'XAbstractionLibrary-Parse_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
