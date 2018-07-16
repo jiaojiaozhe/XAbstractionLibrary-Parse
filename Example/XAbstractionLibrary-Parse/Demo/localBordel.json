@@ -1,0 +1,31 @@
+{
+    "errorCode": 0,
+    "serverMsg": "ok",
+    "client_config": {
+        "publish_image_edge": [{
+            "background": "fff6f6f6",
+            "forground": "ff000000",
+            "border_normal": "ffb2b2b2",
+            "border_select": "ff00be8f",
+            "text": "\u767d",
+            "is_default": "ab",
+            "dateTime":"1449108964.379611"
+        }, {
+            "background": "ffcbcbcb",
+            "forground": "ff000000",
+            "border_normal": "ffcbcbcb",
+            "border_select": "ff00be8f",
+            "text": "\u7070",
+            "is_default": "f",
+            "dateTime":1449108964.379611
+        }, {
+            "background": "ff000000",
+            "forground": "ffffffff",
+            "border_normal": "ff000000",
+            "border_select": "ff00be8f",
+            "text": "\u9ed1",
+            "is_default": false,
+            "dateTime":"2015-12-03 02:16:04"
+        }]
+    }
+}

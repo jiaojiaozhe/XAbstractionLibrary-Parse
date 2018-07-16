@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XAbstractionLibrary-Parse'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XAbstractionLibrary-Parse.'
+  s.version          = '0.0.1'
+  s.summary          = 'XAbstractionLibrary-Parse是通用型解析器.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+XAbstractionLibrary-Parse是通用型解析器，基于Mantle，具备优秀的解析容错性，解析多态性，同时使用方便.
                        DESC
 
   s.homepage         = 'https://github.com/jiaojiaozhe/XAbstractionLibrary-Parse'
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+    s.dependency 'Mantle', '~> 2.1.0'
+    s.dependency 'XAbstractionLibrary-Base'
 end

@@ -24,6 +24,12 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A47D20A6D7057DDE8BC9CA5E /* Pods_XAbstractionLibrary_Parse_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E841A44944F79D62C95C023 /* Pods_XAbstractionLibrary_Parse_Example.framework */; };
+		BCD639A220F8C941000109DC /* localBordel.json in Resources */ = {isa = PBXBuildFile; fileRef = BCD639A120F8C941000109DC /* localBordel.json */; };
+		BCD639A820F8C9B8000109DC /* BaseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD639A720F8C9B8000109DC /* BaseResult.m */; };
+		BCD639B120F8CCDF000109DC /* SYClientConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD639AB20F8CCDF000109DC /* SYClientConfig.m */; };
+		BCD639B220F8CCDF000109DC /* SYTestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD639AF20F8CCDF000109DC /* SYTestResponse.m */; };
+		BCD639B320F8CCDF000109DC /* SYPublishImageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD639B020F8CCDF000109DC /* SYPublishImageConfig.m */; };
+		BCD639C620F8DFA8000109DC /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD639C520F8DFA8000109DC /* BaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		2226CE096CF90644021F8E78 /* Pods-XAbstractionLibrary-Parse_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAbstractionLibrary-Parse_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XAbstractionLibrary-Parse_Tests/Pods-XAbstractionLibrary-Parse_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4308A2748D8C1379265AB56E /* XAbstractionLibrary-Parse.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "XAbstractionLibrary-Parse.podspec"; path = "../XAbstractionLibrary-Parse.podspec"; sourceTree = "<group>"; };
+		4308A2748D8C1379265AB56E /* XAbstractionLibrary-Parse.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "XAbstractionLibrary-Parse.podspec"; path = "../XAbstractionLibrary-Parse.podspec"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XAbstractionLibrary-Parse_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XAbstractionLibrary-Parse_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +67,22 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DD2EE397A542471E2F9C860 /* Pods_XAbstractionLibrary_Parse_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XAbstractionLibrary_Parse_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDC093B69AB8E2A19F1299D /* Pods-XAbstractionLibrary-Parse_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAbstractionLibrary-Parse_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XAbstractionLibrary-Parse_Example/Pods-XAbstractionLibrary-Parse_Example.release.xcconfig"; sourceTree = "<group>"; };
-		80EFD9A7C0B6B83549641F7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		80EFD9A7C0B6B83549641F7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E841A44944F79D62C95C023 /* Pods_XAbstractionLibrary_Parse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XAbstractionLibrary_Parse_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B9B0C4525AB9D096A8B552 /* Pods-XAbstractionLibrary-Parse_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAbstractionLibrary-Parse_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XAbstractionLibrary-Parse_Tests/Pods-XAbstractionLibrary-Parse_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BB8A507EB3EB3D2387AEBA5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BB8A507EB3EB3D2387AEBA5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BCD639A120F8C941000109DC /* localBordel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = localBordel.json; sourceTree = "<group>"; };
+		BCD639A620F8C9B8000109DC /* BaseResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseResult.h; sourceTree = "<group>"; };
+		BCD639A720F8C9B8000109DC /* BaseResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseResult.m; sourceTree = "<group>"; };
+		BCD639AB20F8CCDF000109DC /* SYClientConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYClientConfig.m; sourceTree = "<group>"; };
+		BCD639AC20F8CCDF000109DC /* SYPublishImageConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPublishImageConfig.h; sourceTree = "<group>"; };
+		BCD639AD20F8CCDF000109DC /* SYTestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTestResponse.h; sourceTree = "<group>"; };
+		BCD639AE20F8CCDF000109DC /* SYClientConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYClientConfig.h; sourceTree = "<group>"; };
+		BCD639AF20F8CCDF000109DC /* SYTestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTestResponse.m; sourceTree = "<group>"; };
+		BCD639B020F8CCDF000109DC /* SYPublishImageConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPublishImageConfig.m; sourceTree = "<group>"; };
+		BCD639C420F8DFA8000109DC /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		BCD639C520F8DFA8000109DC /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		D4C1FEE1559450AE8EF3ED08 /* Pods-XAbstractionLibrary-Parse_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAbstractionLibrary-Parse_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XAbstractionLibrary-Parse_Example/Pods-XAbstractionLibrary-Parse_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +149,7 @@
 		6003F593195388D20070C39A /* Example for XAbstractionLibrary-Parse */ = {
 			isa = PBXGroup;
 			children = (
+				BCD639AA20F8CCBC000109DC /* Demo */,
 				6003F59C195388D20070C39A /* XAppDelegate.h */,
 				6003F59D195388D20070C39A /* XAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -140,6 +158,10 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				BCD639A620F8C9B8000109DC /* BaseResult.h */,
+				BCD639A720F8C9B8000109DC /* BaseResult.m */,
+				BCD639C420F8DFA8000109DC /* BaseModel.h */,
+				BCD639C520F8DFA8000109DC /* BaseModel.m */,
 			);
 			name = "Example for XAbstractionLibrary-Parse";
 			path = "XAbstractionLibrary-Parse";
@@ -183,6 +205,20 @@
 				80EFD9A7C0B6B83549641F7D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		BCD639AA20F8CCBC000109DC /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BCD639AE20F8CCDF000109DC /* SYClientConfig.h */,
+				BCD639AB20F8CCDF000109DC /* SYClientConfig.m */,
+				BCD639AC20F8CCDF000109DC /* SYPublishImageConfig.h */,
+				BCD639B020F8CCDF000109DC /* SYPublishImageConfig.m */,
+				BCD639AD20F8CCDF000109DC /* SYTestResponse.h */,
+				BCD639AF20F8CCDF000109DC /* SYTestResponse.m */,
+				BCD639A120F8C941000109DC /* localBordel.json */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		FD364008A27C4984A10BA476 /* Pods */ = {
@@ -276,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD639A220F8C941000109DC /* localBordel.json in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -319,10 +356,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XAbstractionLibrary-Parse_Example/Pods-XAbstractionLibrary-Parse_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MD5Digest/MD5Digest.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/OpenUDID/OpenUDID.framework",
+				"${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-Base/XAbstractionLibrary_Base.framework",
 				"${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-Parse/XAbstractionLibrary_Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MD5Digest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenUDID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XAbstractionLibrary_Base.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XAbstractionLibrary_Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +400,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD639B320F8CCDF000109DC /* SYPublishImageConfig.m in Sources */,
 				6003F59E195388D20070C39A /* XAppDelegate.m in Sources */,
+				BCD639C620F8DFA8000109DC /* BaseModel.m in Sources */,
+				BCD639A820F8C9B8000109DC /* BaseResult.m in Sources */,
+				BCD639B220F8CCDF000109DC /* SYTestResponse.m in Sources */,
+				BCD639B120F8CCDF000109DC /* SYClientConfig.m in Sources */,
 				6003F5A7195388D20070C39A /* XViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -491,6 +541,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -506,6 +558,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

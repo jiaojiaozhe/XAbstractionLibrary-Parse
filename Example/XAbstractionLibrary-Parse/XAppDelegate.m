@@ -7,12 +7,44 @@
 //
 
 #import "XAppDelegate.h"
+#import <XAbstractionLibrary_Parse/XAbstractionLibrary-Parse-umbrella.h>
+
+#import "SYTestResponse.h"
+#import "SYPublishImageConfig.h"
 
 @implementation XAppDelegate
+
+- (NSDictionary *)dictionaryWithJSONData:(NSData *)data
+{
+    NSError *error;
+    if (data == nil) return [[NSDictionary alloc] init];
+    if ([data length] <= 0) return [[NSDictionary alloc] init];
+    
+    return [NSJSONSerialization JSONObjectWithData:data
+                                           options:NSJSONReadingMutableContainers
+                                             error:&error];
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSString *bundlePath = [[NSBundle mainBundle]pathForResource:@"localBordel" ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:bundlePath];
+    NSDictionary *responseDic = [self dictionaryWithJSONData:data];
+    SYTestResponse  *response = [XJSONAdapter modelOfClass:[SYTestResponse class] fromJSONDictionary:responseDic error:nil];
+    SYPublishImageConfig *config2 = [response.clientConfig.publish_image_edge objectAtIndex:2];
+    config2.dateTime = @(1449108964.379611);
+    config2.is_default = YES;
+    SYPublishImageConfig *config1 = [response.clientConfig.publish_image_edge objectAtIndex:1];
+    config1.is_default = [NSDate date];
+    config1.dateTime = @"2015-12-03 02:16:04";
+    SYPublishImageConfig *config0 = [response.clientConfig.publish_image_edge objectAtIndex:0];
+    config0.is_default = @(1.23);
+    NSDictionary *responseDic2 = [XJSONAdapter JSONDictionaryFromModel:response error:nil];
+    
+    NSData *archiverData = [NSKeyedArchiver archivedDataWithRootObject:response];
+    SYTestResponse *unArchiverResponse = [NSKeyedUnarchiver unarchiveObjectWithData:archiverData];
     return YES;
 }
 
