@@ -30,8 +30,8 @@
  */
 #define DICT_PUT(dict, key, obj) \
 if(dict != NULL && key != NULL && obj != NULL){\
-if(![dic isKindOfClass:[NSMutableDictionary class]]){\
-if([dic isKindOfClass:[NSDictionary class]]){\
+if(![dict isKindOfClass:[NSMutableDictionary class]]){\
+if([dict isKindOfClass:[NSDictionary class]]){\
 dict = [NSMutableDictionary dictionaryWithDictionary:dict];\
 }\
 }\
@@ -56,5 +56,6 @@ array = [NSMutableArray arrayWithArray:array];\
  */
 #define RGB_COLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
 #define RGB_COLORA(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
+
 
 #endif
