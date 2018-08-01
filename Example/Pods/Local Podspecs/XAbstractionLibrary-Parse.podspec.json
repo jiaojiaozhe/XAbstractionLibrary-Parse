@@ -1,6 +1,6 @@
 {
   "name": "XAbstractionLibrary-Parse",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "XAbstractionLibrary-Parse是通用型解析器.",
   "description": "XAbstractionLibrary-Parse是通用型解析器，基于Mantle，具备优秀的解析容错性，解析多态性，同时使用方便.",
   "homepage": "https://github.com/jiaojiaozhe/XAbstractionLibrary-Parse",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jiaojiaozhe/XAbstractionLibrary-Parse.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"

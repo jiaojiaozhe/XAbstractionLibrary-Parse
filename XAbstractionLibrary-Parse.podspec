@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XAbstractionLibrary-Parse'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'XAbstractionLibrary-Parse是通用型解析器.'
 
 # This description is used to generate tags and improve search results.
