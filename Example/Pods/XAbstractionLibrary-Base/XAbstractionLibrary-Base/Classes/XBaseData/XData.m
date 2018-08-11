@@ -19,7 +19,7 @@
     @synchronized(XData.class)
     {
         if(clientID.length <= 0){
-            //clientID = [XDeviceInfo getDeviceIDFA];
+            clientID = [XDeviceInfo getDeviceIDFA];
         }
         NSTimeInterval interval = [[NSDate date] timeIntervalSince1970];
         NSString *uuid = [NSString stringWithFormat:@"XID_%@_%lf_%lu",clientID,interval,(unsigned long)++index];
