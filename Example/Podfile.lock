@@ -4,10 +4,10 @@ PODS:
   - Mantle/extobjc (2.1.1)
   - MD5Digest (1.1.0)
   - OpenUDID (1.0.0)
-  - XAbstractionLibrary-Base (0.0.17):
+  - XAbstractionLibrary-Base (0.0.19):
     - MD5Digest
     - OpenUDID
-  - XAbstractionLibrary-Parse (0.0.6):
+  - XAbstractionLibrary-Parse (0.0.7):
     - Mantle (~> 2.1.0)
     - XAbstractionLibrary-Base
 
@@ -30,8 +30,8 @@ SPEC CHECKSUMS:
   Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
-  XAbstractionLibrary-Base: 8ed875c85ee70cab688bdc7ac3e13cf73ceba6ff
-  XAbstractionLibrary-Parse: c6e2fdad1402307b04058ed01fa5b9844101463a
+  XAbstractionLibrary-Base: d993441feddf4335783491c1bb6722b04412cf45
+  XAbstractionLibrary-Parse: b733785a026398d645e1c76a887a61ff0dc981e5
 
 PODFILE CHECKSUM: cb6309ea46a751c92dc73c3a669c73db33eb3bb2
 
