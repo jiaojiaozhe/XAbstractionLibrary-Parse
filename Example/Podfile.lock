@@ -1,13 +1,13 @@
 PODS:
-  - Mantle (2.1.0):
-    - Mantle/extobjc (= 2.1.0)
-  - Mantle/extobjc (2.1.0)
+  - Mantle (2.1.1):
+    - Mantle/extobjc (= 2.1.1)
+  - Mantle/extobjc (2.1.1)
   - MD5Digest (1.1.0)
   - OpenUDID (1.0.0)
-  - XAbstractionLibrary-Base (0.0.16):
+  - XAbstractionLibrary-Base (0.0.17):
     - MD5Digest
     - OpenUDID
-  - XAbstractionLibrary-Parse (0.0.5):
+  - XAbstractionLibrary-Parse (0.0.6):
     - Mantle (~> 2.1.0)
     - XAbstractionLibrary-Base
 
@@ -15,24 +15,24 @@ DEPENDENCIES:
   - XAbstractionLibrary-Parse (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/jiaojiaozhe/XAbstractionLibrary-Specs:
+    - XAbstractionLibrary-Base
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - Mantle
     - MD5Digest
     - OpenUDID
-  https://github.com/jiaojiaozhe/XAbstractionLibrary-Specs:
-    - XAbstractionLibrary-Base
 
 EXTERNAL SOURCES:
   XAbstractionLibrary-Parse:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
-  XAbstractionLibrary-Base: e3cba83a0460f2c1c2c3afb5e8cc1504189e4011
-  XAbstractionLibrary-Parse: ca0590e0ae18afff69851b89a0ee4d2ba5336be0
+  XAbstractionLibrary-Base: 8ed875c85ee70cab688bdc7ac3e13cf73ceba6ff
+  XAbstractionLibrary-Parse: c6e2fdad1402307b04058ed01fa5b9844101463a
 
-PODFILE CHECKSUM: f2285be55ddcbf5be55061f13289c0323c287fef
+PODFILE CHECKSUM: cb6309ea46a751c92dc73c3a669c73db33eb3bb2
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.9.1
