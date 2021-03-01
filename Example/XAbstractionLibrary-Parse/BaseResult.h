@@ -6,8 +6,9 @@
 //  Copyright © 2018年 jiaojiaozhe. All rights reserved.
 //
 
-#import "XResult.h"
-#import "XBaseModel.h"
+//#import "XResult.h"
+//#import "XBaseModel.h"
+#import <XAbstractionLibrary_Parse/XAbstractionLibrary-Parse-umbrella.h>
 
 @interface BaseResult : XBaseModel<XResult>
 @property (nonatomic,assign) int errorCode;

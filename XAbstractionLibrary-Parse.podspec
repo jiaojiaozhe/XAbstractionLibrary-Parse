@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XAbstractionLibrary-Parse'
-  s.version          = '0.0.26'
+  s.version          = '0.0.27'
   s.summary          = 'XAbstractionLibrary-Parse是通用型解析器.'
 
 # This description is used to generate tags and improve search results.
@@ -42,4 +42,6 @@ XAbstractionLibrary-Parse是通用型解析器，基于Mantle，具备优秀的�
 
     s.dependency 'Mantle', '~> 2.1.0'
     s.dependency 'XAbstractionLibrary-Base'
+#    s.dependency 'XAbstractionLibrary-Base', :path => '../../XAbstractionLibrary-Base/', :configurations => %w[Debug]
+
 end
